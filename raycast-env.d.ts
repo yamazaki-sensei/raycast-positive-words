@@ -13,15 +13,11 @@ type ExtensionPreferences = {}
 declare type Preferences = ExtensionPreferences
 
 declare namespace Preferences {
-  /** Preferences accessible in the `random-word` command */
-  export type RandomWord = ExtensionPreferences & {}
   /** Preferences accessible in the `copy-random-word` command */
   export type CopyRandomWord = ExtensionPreferences & {}
 }
 
 declare namespace Arguments {
-  /** Arguments passed to the `random-word` command */
-  export type RandomWord = {}
   /** Arguments passed to the `copy-random-word` command */
   export type CopyRandomWord = {}
 }

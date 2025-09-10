@@ -23,13 +23,6 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "random-word",
-      "title": "Random Positive Word",
-      "subtitle": "Show & Copy",
-      "description": "Shows a random positive adjective with actions to copy or paste.",
-      "mode": "view"
-    },
-    {
       "name": "copy-random-word",
       "title": "Copy Random Positive Word",
       "description": "Copies a random positive adjective to the clipboard.",
